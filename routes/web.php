@@ -29,3 +29,7 @@ Route::get('/metas', function () {
 Route::get('/Primer expe', function () {
     return view('Primer expe');
 });
+
+Route::get('/segunda expe', function () {
+    return view('segunda expe');
+});
