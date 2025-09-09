@@ -25,3 +25,7 @@ Route::get('/actualmente', function () {
 Route::get('/metas', function () {
     return view('metas');
 });
+
+Route::get('/Primer expe', function () {
+    return view('Primer expe');
+});
