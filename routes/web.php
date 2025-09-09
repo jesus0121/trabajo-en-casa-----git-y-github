@@ -13,3 +13,7 @@ Route::get('/nacimiento', function () {
 Route::get('/niñez', function () {
     return view('niñez');
 });
+
+Route::get('/adolescencia', function () {
+    return view('adolescencia');
+});
